@@ -42,4 +42,5 @@ node_modules/
 # --- Prevent pushing instructor-only content ---
 .instructor/
 *.key
+*.pptx
 *WIP*
