@@ -119,7 +119,8 @@ def main():
     print(f"fib({n}) = {result}")
     print(
         f"Execution took {end - start:.6f} seconds "
-        f"and {counter:,} iterations"
+        f"and {counter:,} iterations\n"
+        f"ratio between iterations and magnitude of the result is {counter/result}"
     )
 
 
